@@ -120,6 +120,12 @@ body {
 .page-num-35 {
   background-image: url("../img/page_end_bg.jpg") !important;
 }
+.page-egg {
+  background-image: url("../img/page_bg_egg.png") !important;
+}
+.page-num-37 {
+  background-image: url("../img/page_bg_egg_end.png") !important;
+}
 .page-main-cover {
   width: 310px;
   height: 440px;
@@ -216,4 +222,8 @@ body {
 .page-end h1 {
   padding-bottom: 75px;
   color: #fff;
+}
+
+.page-egg .text {
+  padding-bottom: 65px;
 }
