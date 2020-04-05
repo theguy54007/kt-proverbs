@@ -118,7 +118,8 @@ body {
   background-image: url("../img/page_bg_sp.jpg") !important;
 }
 .page-num-35 {
-  background-image: url("../img/page_end_bg.jpg") !important;
+  /* background-image: url("../img/page_end_bg.jpg") !important; */
+  background-image: url("../img/page_bg_egg_end.png") !important;
 }
 .page-egg {
   background-image: url("../img/page_bg_egg.png") !important;
