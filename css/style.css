@@ -56,7 +56,11 @@ body {
 }
 .pages {}
 
-.pages [class^="page-num-"] {
+.pages [class^="page-num-"],
+.page-end-1,
+.page-end-2,
+.page-egg-1,
+.page-egg-2 {
   background-image: url("https://img00.deviantart.net/cbb9/i/2005/258/c/4/paper_texture_v5_by_bashcorpo.jpg");
   /* background-image: url("../img/background.jpg"); */
   background-image: url("../img/page_bg.jpg");
@@ -115,16 +119,32 @@ body {
   background-image: url("../img/page_bg18.png") !important;
 }
 .page-num-34 {
+  background-image: url("../img/page_bg19.png") !important;
+}
+
+.page-num-36 {
+  background-image: url("../img/page_bg20.png") !important;
+}
+
+.page-num-38 {
+  background-image: url("../img/page_bg21.png") !important;
+}
+
+.page-num-40 {
+  background-image: url("../img/page_bg22.png") !important;
+}
+
+.page-end-1 {
   background-image: url("../img/page_bg_sp.jpg") !important;
 }
-.page-num-35 {
-  /* background-image: url("../img/page_end_bg.jpg") !important; */
-  background-image: url("../img/page_bg_egg_end.png") !important;
+
+.page-end-2 {
+  background-image: url("../img/page_end_bg.jpg") !important;
 }
-.page-egg {
+.page-egg-1 {
   background-image: url("../img/page_bg_egg.png") !important;
 }
-.page-num-37 {
+.page-egg-2 {
   background-image: url("../img/page_bg_egg_end.png") !important;
 }
 .page-main-cover {
@@ -220,11 +240,11 @@ body {
   font-size: 23px
 }
 
-.page-end h1 {
+.page-end-1 h1 {
   padding-bottom: 75px;
   color: #fff;
 }
 
-.page-egg .text {
+.page-egg-1 .text {
   padding-bottom: 65px;
 }
